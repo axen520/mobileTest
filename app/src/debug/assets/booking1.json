@@ -1,0 +1,50 @@
+{
+    "shipReference": "ASDADAD",
+    "shipToken": "ASSDASDASDAD",
+    "canIssueTicketChecking": false,
+    "expiryTime": "1740325839",
+    "duration": 2430,
+    "segments":
+    [
+        {
+            "id": 1,
+            "originAndDestinationPair":
+            {
+                "destination":
+                {
+                    "code": "CCC",
+                    "displayName": "CCC DisplayName",
+                    "url": "www.baidu.com"
+                },
+                "destinationCity": "DDD",
+                "origin":
+                {
+                    "code": "DDD",
+                    "displayName": "DDD DisplayName",
+                    "url": "www.aaa.com"
+                },
+                "originCity": "DDD"
+            }
+        },
+        {
+            "id": 2,
+            "originAndDestinationPair":
+            {
+                "destination":
+                {
+                    "code": "EEE",
+                    "displayName": "EEE DisplayName",
+                    "url": "www.fff.com"
+                },
+                "destinationCity": "EEE",
+                "origin":
+                {
+                    "code": "EEE",
+                    "displayName": "EEE DisplayName",
+                    "url": "www.ccc.com"
+                },
+                "originCity": "EEE"
+            }
+        }
+    ]
+}

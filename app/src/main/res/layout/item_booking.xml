@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="id: 1" />
+
+    <TextView
+        android:id="@+id/ori_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/id"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="oriCode: AAA" />
+
+    <TextView
+        android:id="@+id/ori_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/ori_code"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="oriName: AAA DisplayName" />
+
+    <TextView
+        android:id="@+id/ori_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/ori_name"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="oriUrl: www.ship.com" />
+
+    <TextView
+        android:id="@+id/ori_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/ori_url"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="oriCity: AAA" />
+
+    <TextView
+        android:id="@+id/dest_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/ori_city"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="destCode: BBB" />
+
+    <TextView
+        android:id="@+id/dest_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/dest_code"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="destName: BBB DisplayName" />
+
+    <TextView
+        android:id="@+id/dest_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/dest_name"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="destUrl: www.ship.com" />
+
+    <TextView
+        android:id="@+id/dest_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/dest_url"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="destCode: BBB" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
